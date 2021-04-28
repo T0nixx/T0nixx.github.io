@@ -1,0 +1,19 @@
+{
+  "name": "vault",
+  "version": "0.0.1",
+  "description": "valut for steam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tonixx",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^15.0.1"
+  }
+}
