@@ -1,2 +1,11 @@
-Tonixx github io
-asd
+<body>
+    <h1>STEAM OPEN ID TEST</h1>
+    <img src="img/sits_large_border.png" id="login">
+</body>
+<script>var exports = {};</script>
+<script src="dist/index.js" type="module">
+    let image = document.getElementById("login")
+    image.addEventListener("click", async function(){
+        await authenticate_open_id()
+    })
+</script>

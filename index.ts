@@ -1,12 +1,13 @@
 import axios from 'axios';
 import { WEB_API_KEY } from './config';
-import qs from 'qs';
+import * as qs from 'qs';
 
-const authenticate_open_id = async () => {
+export const authenticate_open_id = async () => {
   const url = 'https://steamcommunity.com/openid/';
 
   const response = await axios.get(url);
   console.log(response);
+  return response;
 };
 
 const get_owned_games = async (id: number): Promise<object> => {
